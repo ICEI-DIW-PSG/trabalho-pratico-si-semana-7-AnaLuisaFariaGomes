@@ -5,6 +5,10 @@ body {
   color: #333;
 }
 
+.card-cad {
+  background-color: lightblue !important; 
+}
+
 /* HEADER */
 .navbar {
   background-color: #003366 !important;
@@ -58,38 +62,26 @@ h2 {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
+/*  MAIN INDEX */
+
+.bg-index {
+  background-color: lightblue !important;
+}
+
 /* SEÇÕES PERSONALIZADAS */
-.article-intro {
+.card {
   background-color: #ffe26f !important;
   padding: 20px;
   border-radius: 10px;
   margin-top: 20px;
   margin-bottom: 20px;
-  color: #333;
-}
-
-.article-bio {
-  background-color: lightblue !important;
-  padding: 20px;
-  border-radius: 10px;
-  margin-top: 20px;
-  margin-bottom: 20px;
-  color: #333;
-}
-
-/* GARANTIR ESTILO EM <article> GERAL */
-article {
-  background-color: #e6f2ff;
-  padding: 20px;
-  border-radius: 10px;
-  margin-bottom: 20px;
-  color: #003366;
+  color:#003366;;
 }
 
 /* livros */
 .card-img-top {
-  width: 60%;
-  height: 320px;
+  width: 90%;
+  height: auto;
   object-fit: cover;
   border-radius: 8px;
 }

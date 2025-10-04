@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Rick Riordan Fan Page - Filmes e Série</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+  <script src="app.js" defer></script>
+</head>
+<body class="bg-light d-flex flex-column min-vh-100">
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-dark shadow">
+      <div class="container">
+        <a class="navbar-brand fw-bold" href="#">Rick Riordan Fan Page</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarScroll">
+          <ul class="navbar-nav mb-2 mb-lg-0">
+            <li class="nav-item"><a class="nav-link" href="index.html">Início</a></li>
+            <li class="nav-item"><a class="nav-link" href="livros.html">Livros</a></li>
+            <li class="nav-item"><a class="nav-link" href="personagens.html">Personagens</a></li>
+            <li class="nav-item"><a class="nav-link active" href="filmes.html">Filmes/Série</a></li>
+            <li class="nav-item"><a href="cadastro.html" class="btn btn-warning ms-lg-3 fw-semibold">Cadastro</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main class="container py-5 flex-grow-1">
+    <h2 class="text-center mb-4">Adaptações Cinematográficas</h2>
+     <!-- Área de pesquisa -->
+    <div class="row justify-content-center">
+      <div class="col-md-6">
+        <div class="input-group shadow-sm">
+          <input type="text" class="form-control rounded-start-pill" placeholder="Pesquise um livro...">
+          <button class="btn btn-primary rounded-end-pill">Pesquisar</button>
+        </div>
+      </div>
+    </div>
+    <section class="row g-4 justify-content-center">
+      <div class="col-md-4">
+        <div class="card h-100 shadow-sm card-personalizado text-center">
+          <img src="img/filme1.jpg" class="card-img-top" alt="Filme 1">
+          <div class="card-body">
+            <h5 class="card-title">O Ladrão de Raios (2010)</h5>
+            <p class="card-text">Primeira adaptação cinematográfica da saga Percy Jackson.</p>
+            <a href="detalhes.html?id=11" class="btn btn-primary mt-3">Ver detalhes</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card h-100 shadow-sm card-personalizado text-center">
+          <img src="img/filme2.jpg" class="card-img-top" alt="Filme 2">
+          <div class="card-body">
+            <h5 class="card-title">O Mar de Monstros (2013)</h5>
+            <p class="card-text">Percy embarca em uma jornada pelo Mar de Monstros.</p>
+            <a href="detalhes.html?id=12" class="btn btn-primary mt-3">Ver detalhes</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card h-100 shadow-sm card-personalizado text-center">
+          <img src="img/serie.jpg" class="card-img-top" alt="Série Disney+">
+          <div class="card-body">
+            <h5 class="card-title">Série Percy Jackson (2023)</h5>
+            <p class="card-text">Adaptação fiel dos livros produzida pela Disney+.</p>
+            <a href="detalhes.html?id=13" class="btn btn-primary mt-3">Ver detalhes</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <nav class="navbar navbar-dark">
+      <div class="container justify-content-center py-2">
+        <span class="navbar-text small text-white">
+          &copy; 2025 Rick Riordan Fan Page. Todos os direitos reservados.
+        </span>
+      </div>
+    </nav>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
