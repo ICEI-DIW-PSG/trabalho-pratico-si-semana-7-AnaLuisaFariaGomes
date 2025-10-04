@@ -5,10 +5,6 @@ body {
   color: #333;
 }
 
-.card-cad {
-  background-color: lightblue !important; 
-}
-
 /* HEADER */
 .navbar {
   background-color: #003366 !important;
@@ -71,6 +67,15 @@ h2 {
 /* SEÇÕES PERSONALIZADAS */
 .card {
   background-color: #ffe26f !important;
+  padding: 20px;
+  border-radius: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color:#003366;;
+}
+
+.card-cad {
+  background-color: rgba(0, 0, 0, 0, 0.5)!important;
   padding: 20px;
   border-radius: 10px;
   margin-top: 20px;
