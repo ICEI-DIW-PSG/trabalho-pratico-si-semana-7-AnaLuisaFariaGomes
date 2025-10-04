@@ -1,13 +1,100 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="styles.css">
-    <script src="app.js" defer></script>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Rick Riordan Fan Page - Início</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
 </head>
-<body>
-    <h1>Olá mundo</h1>
+<body class="bg-light d-flex flex-column min-vh-100">
+
+  <!-- HEADER -->
+  <nav class="navbar navbar-expand-lg navbar-dark shadow">
+    <div class="container">
+      <a class="navbar-brand fw-bold" href="#">Rick Riordan Fan Page</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse justify-content-end" id="navbarScroll">
+        <ul class="navbar-nav mb-2 mb-lg-0">
+          <li class="nav-item"><a class="nav-link active" href="index.html">Início</a></li>
+          <li class="nav-item"><a class="nav-link" href="livros.html">Livros</a></li>
+          <li class="nav-item"><a class="nav-link" href="personagens.html">Personagens</a></li>
+          <li class="nav-item"><a class="nav-link" href="filmes.html">Filmes/Série</a></li>
+          <li class="nav-item">
+            <a href="cadastro.html" class="btn btn-warning ms-lg-3 fw-semibold">Cadastro</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- CONTEÚDO PRINCIPAL -->
+  <div class="container my-5 flex-grow-1">
+    <main>
+      <h1 class="text-center mb-4">Bem-vindos Meio-Sangues!</h1>
+
+      <!-- Introdução -->
+      <section class="mb-5">
+        <article class="card shadow-sm border-0">
+          <div class="card-body">
+            <p class="card-text">
+              Se você já conhece Rick Riordan, sabe que as aventuras que ele cria
+              são simplesmente irresistíveis. Este site foi feito para reunir informações
+              sobre suas obras, personagens, séries e filmes em um só lugar. Aqui
+              você pode explorar detalhes sobre cada livro, acompanhar os personagens
+              que ama e se atualizar sobre as adaptações para o cinema e TV. Tudo de
+              um jeito leve, direto e pensado para quem já é fã e quer aproveitar
+              ainda mais o mundo de Riordan.
+            </p>
+          </div>
+        </article>
+      </section>
+
+      <!-- Imagem de destaque -->
+      <div class="text-center mb-5">
+        <img src="https://picsum.photos/id/17/800/500" alt="Imagem de um bosque" class="img-fluid rounded shadow destaque" />
+      </div>
+
+      <!-- Biografia -->
+      <section>
+        <article class="card border-0 shadow-sm">
+          <div class="card-body">
+            <h2 class="card-title">Rick Riordan</h2>
+            <p class="card-text">
+              Nascido em 5 de junho de 1964, em San Antonio, Texas, é um dos
+              autores mais populares da literatura infantojuvenil contemporânea.
+              Ele é mundialmente conhecido pela série Percy Jackson e os Olimpianos,
+              que introduziu milhões de jovens leitores ao universo da mitologia grega de forma
+              moderna e divertida.
+            </p>
+            <p class="card-text">
+              Além de Percy Jackson, Rick expandiu sua obra com séries que exploram a
+              mitologia romana, egípcia e nórdica, como Heróis do Olimpo, As Crônicas dos Kane
+              e Magnus Chase e os Deuses de Asgard. Seus livros já venderam milhões de cópias
+              no mundo todo e inspiraram filmes, séries e uma legião de fãs.
+            </p>
+          </div>
+        </article>
+      </section>
+    </main>
+  </div>
+
+  <!-- FOOTER -->
+  <footer class="mt-auto">
+    <nav class="navbar navbar-dark">
+      <div class="container justify-content-center py-2">
+        <span class="navbar-text small text-white">
+          &copy; 2025 Rick Riordan Fan Page. Todos os direitos reservados.
+        </span>
+      </div>
+    </nav>
+  </footer>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

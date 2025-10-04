@@ -1,0 +1,119 @@
+/* BASE */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f5f5f5;
+  color: #333;
+}
+
+/* HEADER */
+.navbar {
+  background-color: #003366 !important;
+}
+
+.navbar-brand {
+  color: #fff !important;
+  font-weight: bold;
+}
+
+.nav-link {
+  color: #fff !important;
+  font-weight: bold;
+}
+
+.nav-link.active,
+.nav-link:hover {
+  color: #ffcc00 !important;
+}
+
+/* BOTÃO CADASTRO */
+.btn-warning {
+  background-color: #ffcc00 !important;
+  color: #003366 !important;
+  border-radius: 8px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.btn-warning:hover {
+  background-color: #e6b800 !important;
+}
+
+/* TÍTULOS */
+h1,
+h2 {
+  color: #003366;
+}
+
+/* TEXTO */
+.card-body p,
+.card-text {
+  text-align: justify;
+  text-indent: 5%;
+}
+
+/* IMAGEM DE DESTAQUE */
+.destaque,
+.img-fluid {
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* SEÇÕES PERSONALIZADAS */
+.article-intro {
+  background-color: #ffe26f !important;
+  padding: 20px;
+  border-radius: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.article-bio {
+  background-color: lightblue !important;
+  padding: 20px;
+  border-radius: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* GARANTIR ESTILO EM <article> GERAL */
+article {
+  background-color: #e6f2ff;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  color: #003366;
+}
+
+/* livros */
+.card-img-top {
+  width: 60%;
+  height: 320px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+}
+
+.card-personalizado {
+  background-color: #e6f2ff !important;
+  border-radius: 10px;
+  color: #003366;
+  text-align: center;
+}
+
+/* FOOTER */
+footer .navbar {
+  background-color: #003366 !important;
+}
+
+footer .navbar-text {
+  color: #fff !important;
+  font-size: 0.9rem;
+}
