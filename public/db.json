@@ -1,5 +1,5 @@
 {
-    "livros"; [
+    "livros": [
         {
             "id": 1,
             "titulo": "O Ladrão de Raios",
@@ -41,7 +41,7 @@
             "sinopse": "A grande guerra entre deuses e titãs finalmente chega a Nova York. Percy e os semideuses do Acampamento Meio-Sangue se reúnem para defender o Monte Olimpo do ataque de Cronos e seu exército, em uma batalha decisiva pelo destino do mundo."
         }
     ],
-    "cinema"; [
+    "cinema": [
         {
             "id": 1,
             "tipo": "Filme",
@@ -93,7 +93,7 @@
             ]
         }
     ],
-    "personagens"; [
+    "personagens": [
         {
             "id": 1,
             "nome": "Percy Jackson",
