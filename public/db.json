@@ -139,5 +139,65 @@
             "poderes": "Como filho de Hades, ele controla as forças do submundo, incluindo a capacidade de invocar mortos e manipular a terra. É um espadachim habilidoso e usa uma lâmina de Ferro Estígio.",
             "jornada": "Após a morte de Bianca, ele culpa Percy e passa a vagar entre o mundo dos mortos e dos vivos, até que finalmente se reconcilia com Percy e encontra um lugar no Acampamento Meio-Sangue. Ele é abertamente gay e namora Will Solace."
         }
+    ],
+    "autor": [
+        {
+            "nome_completo": "Richard Russell Riordan Jr.",
+            "img": "img/rickRiordan.png",
+            "data_nascimento": "5 de junho de 1964",
+            "local_nascimento": "San Antonio, Texas, EUA",
+            "ocupacao": "Escritor",
+            "conhecido_por": [
+                "Percy Jackson e os Olimpianos",
+                "Os Heróis do Olimpo",
+                "As Crônicas dos Kane",
+                "Magnus Chase e os Deuses de Asgard"
+            ],
+            "carreira": {
+                "professor_historia": "Ensinou inglês e história por 15 anos em escolas públicas e particulares, o que moldou sua escrita para o público jovem.",
+                "escrita_para_jovens": "Inspirado em seu filho Haley, que tem TDAH e dislexia, ele criou Percy Jackson, um herói com as mesmas características, permitindo uma maior identificação com os jovens leitores.",
+                "selo_editorial": {
+                    "nome": "Rick Riordan Presents",
+                    "objetivo": "Publicar autores de culturas sub-representadas, inspirando-se em mitologias de suas próprias heranças."
+                }
+            },
+            "inspiracao_percy_jackson": "Histórias de ninar que contava para seu filho, Haley, que pediu histórias sobre mitologia grega.",
+            "principais_obras": [
+                {
+                    "serie": "Percy Jackson e os Olimpianos",
+                    "mitologia": "Grega"
+                },
+                {
+                    "serie": "Os Heróis do Olimpo",
+                    "mitologia": "Grega e Romana"
+                },
+                {
+                    "serie": "As Crônicas dos Kane",
+                    "mitologia": "Egípcia"
+                },
+                {
+                    "serie": "Magnus Chase e os Deuses de Asgard",
+                    "mitologia": "Nórdica"
+                },
+                {
+                    "serie": "As Provações de Apolo",
+                    "mitologia": "Grega e Romana"
+                }
+            ],
+            "reconhecimento": [
+                "Autor best-seller do The New York Times",
+                "YALSA",
+                "American Library Association",
+                "Children's Choice Books Awards (2011)"
+            ],
+            "vida_pessoal": {
+                "localizacao_atual": "Boston, Massachusetts, EUA",
+                "esposa": "Becky Riordan",
+                "filhos": [
+                    "Haley Riordan",
+                    "Patrick Riordan"
+                ]
+            }
+        }
     ]
 }
