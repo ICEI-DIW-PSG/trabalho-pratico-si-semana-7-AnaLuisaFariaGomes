@@ -39,8 +39,9 @@
   <!-- MAIN -->
   <main class="container py-5 flex-grow-1">
     <h2 class="text-center mb-4">Livros</h2>
+
     <!-- Área de pesquisa -->
-    <div class="row justify-content-center">
+    <div class="row justify-content-center mb-4">
       <div class="col-md-6">
         <div class="input-group shadow-sm">
           <input type="text" class="form-control rounded-start-pill" placeholder="Pesquise um livro...">
@@ -48,67 +49,9 @@
         </div>
       </div>
     </div>
-    <section class="row g-4 justify-content-center">
-      <!-- Livro 1 -->
-      <div class="col-md-4">
-        <div class="card h-100 shadow-sm card-personalizado text-center">
-          <img src="img/livro1.jpg" class="card-img-top" alt="Percy Jackson e o Ladrão de Raios">
-          <div class="card-body">
-            <h5 class="card-title">Percy Jackson e o Ladrão de Raios</h5>
-            <p class="card-text">O início da saga do semideus Percy Jackson. Aventura, mitologia e muita ação!</p>
-            <a href="detalhes.html?id=1" class="btn btn-primary mt-3">Ver detalhes</a>
-          </div>
-        </div>
-      </div>
 
-      <!-- Livro 2 -->
-      <div class="col-md-4">
-        <div class="card h-100 shadow-sm card-personalizado text-center">
-          <img src="img/lirvo2.jpg" class="card-img-top" alt="O Mar de Monstros">
-          <div class="card-body">
-            <h5 class="card-title">O Mar de Monstros</h5>
-            <p class="card-text">Percy embarca em uma jornada perigosa para salvar seu acampamento e seus amigos.</p>
-            <a href="detalhes.html?id=2" class="btn btn-primary mt-3">Ver detalhes</a>
-          </div>
-        </div>
-      </div>
-
-      <!-- Livro 3 -->
-      <div class="col-md-4">
-        <div class="card h-100 shadow-sm card-personalizado text-center">
-          <img src="img/livro3.jpg" class="card-img-top" alt="A Maldição do Titã">
-          <div class="card-body">
-            <h5 class="card-title">A Maldição do Titã</h5>
-            <p class="card-text">Novos aliados e inimigos surgem enquanto Percy enfrenta uma ameaça crescente.</p>
-            <a href="detalhes.html?id=3" class="btn btn-primary mt-3">Ver detalhes</a>
-          </div>
-        </div>
-      </div>
-
-      <!-- Livro 4 -->
-      <div class="col-md-4">
-        <div class="card h-100 shadow-sm card-personalizado text-center">
-          <img src="img/livro4.jpg" class="card-img-top" alt="A Batalha do Labirinto">
-          <div class="card-body">
-            <h5 class="card-title">A Batalha do Labirinto</h5>
-            <p class="card-text">Percy e seus amigos enfrentam desafios mortais dentro de um labirinto mágico.</p>
-            <a href="detalhes.html?id=4" class="btn btn-primary mt-3">Ver detalhes</a>
-          </div>
-        </div>
-      </div>
-
-      <!-- Livro 5 -->
-      <div class="col-md-4">
-        <div class="card h-100 shadow-sm card-personalizado text-center">
-          <img src="img/livro5.jpg" class="card-img-top" alt="O Último Olimpiano">
-          <div class="card-body">
-            <h5 class="card-title">O Último Olimpiano</h5>
-            <p class="card-text">A batalha final entre os semideuses e os titãs decide o destino do Olimpo.</p>
-            <a href="detalhes.html?id=5" class="btn btn-primary mt-3">Ver detalhes</a>
-          </div>
-        </div>
-      </div>
-    </section>
+    <!-- Cards dinâmicos -->
+    <section id="livros-container" class="row g-4 justify-content-center"></section>
   </main>
 
   <!-- FOOTER -->
