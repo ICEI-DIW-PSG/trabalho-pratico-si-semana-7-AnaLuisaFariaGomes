@@ -8,8 +8,9 @@
   <link rel="stylesheet" href="styles.css" />
   <script src="app.js" defer></script>
 </head>
-<body>
-    <header>
+<body class="bg-light d-flex flex-column min-vh-100">
+  <!-- HEADER -->
+  <header>
     <nav class="navbar navbar-expand-lg navbar-dark shadow">
       <div class="container">
         <a class="navbar-brand fw-bold" href="#">Rick Riordan Fan Page</a>
@@ -29,14 +30,13 @@
     </nav>
   </header>
 
-  <main>
-    <section id="detalhes-item">
-      <p>Conteúdo dinâmico será carregado aqui...</p>
-    </section>
+   <!-- MAIN -->
+  <main class="container py-5 flex-grow-1">
+    <div id="detalhes-container"></div>
   </main>
 
-   <!-- FOOTER -->
-  <footer class="mt-auto">
+  <!-- FOOTER -->
+  <footer>
     <nav class="navbar navbar-dark">
       <div class="container justify-content-center py-2">
         <span class="navbar-text small text-white">
@@ -45,5 +45,7 @@
       </div>
     </nav>
   </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
