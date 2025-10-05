@@ -74,7 +74,7 @@ function montarPersonagens(personagens) {
   });
 }
 
-// AUTOR (BIOGRAFIA COMPACTA)
+// AUTOR
 function montarBiografiaCompacta(autor) {
   const container = document.getElementById('biografia-container');
   const card = document.createElement('div');
